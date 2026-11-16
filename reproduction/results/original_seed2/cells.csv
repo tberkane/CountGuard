@@ -1,0 +1,88 @@
+cell_id,label,race,sex,cni,antimetabolite,steroid,mtor,belatacept,atg,il2ra,rejection
+0,race=White_sex=male_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=no,White,male,yes,yes,yes,no,no,yes,no,no
+1,race=Asian_sex=male_cni=yes_antimetabolite=no_steroid=yes_mtor=yes_belatacept=no_atg=yes_il2ra=no_rejection=no,Asian,male,yes,no,yes,yes,no,yes,no,no
+2,race=White_sex=female_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=no,White,female,yes,yes,yes,no,no,no,yes,no
+3,race=Black or African American_sex=male_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=no,Black or African American,male,yes,yes,yes,no,no,no,yes,no
+4,race=Black or African American_sex=female_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=no,Black or African American,female,yes,yes,yes,no,no,yes,no,no
+5,race=White_sex=female_cni=yes_antimetabolite=yes_steroid=no_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=no,White,female,yes,yes,no,no,no,yes,no,no
+6,race=White_sex=male_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=no_rejection=no,White,male,yes,yes,yes,no,no,no,no,no
+7,race=White_sex=female_cni=yes_antimetabolite=yes_steroid=no_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=no,White,female,yes,yes,no,no,no,no,yes,no
+8,race=Black or African American_sex=male_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=yes,Black or African American,male,yes,yes,yes,no,no,no,yes,yes
+9,race=White_sex=female_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=yes,White,female,yes,yes,yes,no,no,yes,no,yes
+10,race=White_sex=male_cni=yes_antimetabolite=no_steroid=yes_mtor=yes_belatacept=no_atg=no_il2ra=yes_rejection=no,White,male,yes,no,yes,yes,no,no,yes,no
+11,race=Black or African American_sex=female_cni=no_antimetabolite=yes_steroid=yes_mtor=yes_belatacept=no_atg=yes_il2ra=no_rejection=yes,Black or African American,female,no,yes,yes,yes,no,yes,no,yes
+12,race=cumulus__none_sex=female_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=no,cumulus__none,female,yes,yes,yes,no,no,yes,no,no
+13,race=White_sex=male_cni=yes_antimetabolite=no_steroid=yes_mtor=yes_belatacept=no_atg=yes_il2ra=no_rejection=no,White,male,yes,no,yes,yes,no,yes,no,no
+14,race=White_sex=male_cni=no_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=no,White,male,no,yes,yes,no,no,no,yes,no
+15,race=cumulus__none_sex=male_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=no,cumulus__none,male,yes,yes,yes,no,no,yes,no,no
+16,race=Asian_sex=male_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=no,Asian,male,yes,yes,yes,no,no,yes,no,no
+17,race=White_sex=female_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=no,White,female,yes,yes,yes,no,no,yes,no,no
+18,race=cumulus__none_sex=male_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=no_rejection=no,cumulus__none,male,yes,yes,yes,no,no,no,no,no
+19,race=White_sex=male_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=yes,White,male,yes,yes,yes,no,no,yes,no,yes
+20,race=Black or African American_sex=male_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=no,Black or African American,male,yes,yes,yes,no,no,yes,no,no
+21,race=cumulus__none_sex=male_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=no,cumulus__none,male,yes,yes,yes,no,no,no,yes,no
+22,race=Black or African American_sex=female_cni=yes_antimetabolite=yes_steroid=no_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=no,Black or African American,female,yes,yes,no,no,no,yes,no,no
+23,race=Native Hawaiian or Other Pacific Islander_sex=male_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=no,Native Hawaiian or Other Pacific Islander,male,yes,yes,yes,no,no,yes,no,no
+24,race=White_sex=male_cni=yes_antimetabolite=no_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=no,White,male,yes,no,yes,no,no,yes,no,no
+25,race=Black or African American_sex=female_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=no,Black or African American,female,yes,yes,yes,no,no,no,yes,no
+26,race=cumulus__none_sex=female_cni=no_antimetabolite=yes_steroid=yes_mtor=no_belatacept=yes_atg=yes_il2ra=no_rejection=yes,cumulus__none,female,no,yes,yes,no,yes,yes,no,yes
+27,race=White_sex=female_cni=yes_antimetabolite=no_steroid=yes_mtor=yes_belatacept=no_atg=no_il2ra=no_rejection=no,White,female,yes,no,yes,yes,no,no,no,no
+28,race=cumulus__none_sex=male_cni=yes_antimetabolite=no_steroid=yes_mtor=yes_belatacept=no_atg=no_il2ra=yes_rejection=no,cumulus__none,male,yes,no,yes,yes,no,no,yes,no
+29,race=American Indian or Alaska Native_sex=male_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=no,American Indian or Alaska Native,male,yes,yes,yes,no,no,yes,no,no
+30,race=White_sex=male_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=yes,White,male,yes,yes,yes,no,no,no,yes,yes
+31,race=White_sex=female_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=yes,White,female,yes,yes,yes,no,no,no,yes,yes
+32,race=White_sex=male_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=yes_atg=yes_il2ra=no_rejection=no,White,male,yes,yes,yes,no,yes,yes,no,no
+33,race=cumulus__none_sex=male_cni=yes_antimetabolite=yes_steroid=no_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=no,cumulus__none,male,yes,yes,no,no,no,yes,no,no
+34,race=American Indian or Alaska Native_sex=female_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=no,American Indian or Alaska Native,female,yes,yes,yes,no,no,yes,no,no
+35,race=White_sex=male_cni=yes_antimetabolite=yes_steroid=no_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=no,White,male,yes,yes,no,no,no,yes,no,no
+36,race=cumulus__none_sex=female_cni=yes_antimetabolite=yes_steroid=no_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=no,cumulus__none,female,yes,yes,no,no,no,no,yes,no
+37,race=Black or African American_sex=male_cni=no_antimetabolite=yes_steroid=yes_mtor=yes_belatacept=no_atg=no_il2ra=yes_rejection=no,Black or African American,male,no,yes,yes,yes,no,no,yes,no
+38,race=Asian_sex=female_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=no,Asian,female,yes,yes,yes,no,no,yes,no,no
+39,race=White_sex=male_cni=no_antimetabolite=yes_steroid=yes_mtor=yes_belatacept=no_atg=no_il2ra=yes_rejection=no,White,male,no,yes,yes,yes,no,no,yes,no
+40,race=White_sex=male_cni=yes_antimetabolite=no_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=yes,White,male,yes,no,yes,no,no,no,yes,yes
+41,race=White_sex=female_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=no_rejection=no,White,female,yes,yes,yes,no,no,no,no,no
+42,race=American Indian or Alaska Native_sex=male_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=no,American Indian or Alaska Native,male,yes,yes,yes,no,no,no,yes,no
+43,race=Black or African American_sex=male_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=no_rejection=no,Black or African American,male,yes,yes,yes,no,no,no,no,no
+44,race=cumulus__none_sex=female_cni=yes_antimetabolite=no_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=no,cumulus__none,female,yes,no,yes,no,no,yes,no,no
+45,race=Asian_sex=male_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=no,Asian,male,yes,yes,yes,no,no,no,yes,no
+46,race=Black or African American_sex=male_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=yes,Black or African American,male,yes,yes,yes,no,no,yes,no,yes
+47,race=cumulus__none_sex=female_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=no_rejection=no,cumulus__none,female,yes,yes,yes,no,no,no,no,no
+48,race=White_sex=male_cni=no_antimetabolite=yes_steroid=yes_mtor=yes_belatacept=no_atg=yes_il2ra=no_rejection=no,White,male,no,yes,yes,yes,no,yes,no,no
+49,race=cumulus__none_sex=male_cni=yes_antimetabolite=no_steroid=yes_mtor=yes_belatacept=no_atg=yes_il2ra=no_rejection=no,cumulus__none,male,yes,no,yes,yes,no,yes,no,no
+50,race=Asian_sex=male_cni=yes_antimetabolite=yes_steroid=no_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=no,Asian,male,yes,yes,no,no,no,yes,no,no
+51,race=White_sex=female_cni=no_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=no,White,female,no,yes,yes,no,no,yes,no,no
+52,race=White_sex=female_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=yes_atg=yes_il2ra=no_rejection=no,White,female,yes,yes,yes,no,yes,yes,no,no
+53,race=White_sex=male_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=no,White,male,yes,yes,yes,no,no,no,yes,no
+54,race=Black or African American_sex=female_cni=no_antimetabolite=yes_steroid=yes_mtor=no_belatacept=yes_atg=yes_il2ra=no_rejection=yes,Black or African American,female,no,yes,yes,no,yes,yes,no,yes
+55,race=cumulus__none_sex=female_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=no,cumulus__none,female,yes,yes,yes,no,no,no,yes,no
+56,race=cumulus__none_sex=male_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=yes,cumulus__none,male,yes,yes,yes,no,no,no,yes,yes
+57,race=Black or African American_sex=female_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=yes,Black or African American,female,yes,yes,yes,no,no,yes,no,yes
+58,race=Asian_sex=male_cni=no_antimetabolite=yes_steroid=no_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=yes,Asian,male,no,yes,no,no,no,yes,no,yes
+59,race=Black or African American_sex=male_cni=yes_antimetabolite=yes_steroid=no_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=yes,Black or African American,male,yes,yes,no,no,no,yes,no,yes
+60,race=Black or African American_sex=male_cni=yes_antimetabolite=no_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=no_rejection=no,Black or African American,male,yes,no,yes,no,no,no,no,no
+61,race=White_sex=male_cni=yes_antimetabolite=no_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=no,White,male,yes,no,yes,no,no,no,yes,no
+62,race=American Indian or Alaska Native_sex=female_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=no,American Indian or Alaska Native,female,yes,yes,yes,no,no,no,yes,no
+63,race=White_sex=female_cni=yes_antimetabolite=no_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=no,White,female,yes,no,yes,no,no,no,yes,no
+64,race=White_sex=female_cni=no_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=no_rejection=no,White,female,no,yes,yes,no,no,no,no,no
+65,race=Black or African American_sex=male_cni=yes_antimetabolite=no_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=no,Black or African American,male,yes,no,yes,no,no,yes,no,no
+66,race=Black or African American_sex=female_cni=yes_antimetabolite=no_steroid=yes_mtor=yes_belatacept=no_atg=no_il2ra=yes_rejection=yes,Black or African American,female,yes,no,yes,yes,no,no,yes,yes
+67,race=Black or African American_sex=female_cni=yes_antimetabolite=yes_steroid=no_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=yes,Black or African American,female,yes,yes,no,no,no,yes,no,yes
+68,race=cumulus__none_sex=female_cni=no_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=yes,cumulus__none,female,no,yes,yes,no,no,yes,no,yes
+69,race=Black or African American_sex=male_cni=yes_antimetabolite=yes_steroid=no_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=yes,Black or African American,male,yes,yes,no,no,no,no,yes,yes
+70,race=cumulus__none_sex=male_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=yes,cumulus__none,male,yes,yes,yes,no,no,yes,no,yes
+71,race=White_sex=male_cni=no_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=no,White,male,no,yes,yes,no,no,yes,no,no
+72,race=American Indian or Alaska Native_sex=female_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=yes,American Indian or Alaska Native,female,yes,yes,yes,no,no,yes,no,yes
+73,race=Black or African American_sex=male_cni=yes_antimetabolite=no_steroid=yes_mtor=yes_belatacept=no_atg=yes_il2ra=no_rejection=no,Black or African American,male,yes,no,yes,yes,no,yes,no,no
+74,race=cumulus__none_sex=male_cni=yes_antimetabolite=yes_steroid=no_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=yes,cumulus__none,male,yes,yes,no,no,no,yes,no,yes
+75,race=cumulus__none_sex=female_cni=no_antimetabolite=yes_steroid=yes_mtor=no_belatacept=yes_atg=no_il2ra=yes_rejection=yes,cumulus__none,female,no,yes,yes,no,yes,no,yes,yes
+76,race=White_sex=male_cni=yes_antimetabolite=no_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=no_rejection=no,White,male,yes,no,yes,no,no,no,no,no
+77,race=cumulus__none_sex=male_cni=yes_antimetabolite=yes_steroid=no_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=no,cumulus__none,male,yes,yes,no,no,no,no,yes,no
+78,race=Black or African American_sex=male_cni=no_antimetabolite=yes_steroid=yes_mtor=no_belatacept=yes_atg=no_il2ra=yes_rejection=no,Black or African American,male,no,yes,yes,no,yes,no,yes,no
+79,race=White_sex=male_cni=no_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=yes_il2ra=no_rejection=yes,White,male,no,yes,yes,no,no,yes,no,yes
+80,race=American Indian or Alaska Native_sex=male_cni=yes_antimetabolite=yes_steroid=no_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=no,American Indian or Alaska Native,male,yes,yes,no,no,no,no,yes,no
+81,race=White_sex=male_cni=yes_antimetabolite=yes_steroid=no_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=no,White,male,yes,yes,no,no,no,no,yes,no
+82,race=White_sex=male_cni=no_antimetabolite=yes_steroid=yes_mtor=no_belatacept=yes_atg=yes_il2ra=yes_rejection=no,White,male,no,yes,yes,no,yes,yes,yes,no
+83,race=White_sex=male_cni=yes_antimetabolite=no_steroid=no_mtor=yes_belatacept=no_atg=no_il2ra=no_rejection=no,White,male,yes,no,no,yes,no,no,no,no
+84,race=Asian_sex=female_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=no,Asian,female,yes,yes,yes,no,no,no,yes,no
+85,race=Asian_sex=female_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=no_rejection=no,Asian,female,yes,yes,yes,no,no,no,no,no
+86,race=Native Hawaiian or Other Pacific Islander_sex=male_cni=yes_antimetabolite=yes_steroid=yes_mtor=no_belatacept=no_atg=no_il2ra=yes_rejection=no,Native Hawaiian or Other Pacific Islander,male,yes,yes,yes,no,no,no,yes,no

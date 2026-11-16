@@ -1,0 +1,30 @@
+{
+ "timings_s": {
+  "cube": 0.058234833006281406,
+  "bounds": 0.18697949999477714,
+  "stan": 21.417032249999465,
+  "mh": 4.350441041999147,
+  "total": 26.01268762499967
+ },
+ "rows_published": 5584,
+ "rows_suppressed_nonempty": 23200,
+ "rows_deterministic": 19750,
+ "small_cells_exact_by_size": {
+  "1": [
+   39,
+   45
+  ],
+  "2": [
+   16,
+   19
+  ],
+  "3": [
+   5,
+   5
+  ]
+ },
+ "cells_in_model": 87,
+ "cells_exact": 77,
+ "null_dim": 3,
+ "mh_acceptance_mean": 0.26249500000000003
+}

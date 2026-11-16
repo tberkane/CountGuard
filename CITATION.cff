@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use CountGuard, please cite it as below."
+title: "CountGuard: audit and protect aggregate patient-count releases against reconstruction attacks"
+type: software
+authors:
+  - family-names: Berkane
+    given-names: Thomas
+    affiliation: "Computational Health Informatics Program, Boston Children's Hospital"
+version: 0.1.0
+date-released: "2026-11-16"
+license: Apache-2.0
+repository-code: "https://github.com/tberkane/CountGuard"
+url: "https://tberkane.github.io/CountGuard/"
+keywords:
+  - privacy
+  - statistical disclosure control
+  - differential privacy
+  - reconstruction attack
+  - electronic health records
+references:
+  - type: article
+    title: "Sharing aggregated patient counts in place of line-level EHR data: analytic fidelity and the limits of count suppression for privacy"
+    authors:
+      - family-names: Chen
+        given-names: Yanshi
+      - family-names: McMurry
+        given-names: Andrew J.
+      - family-names: Gottlieb
+        given-names: Dan
+      - family-names: Jones
+        given-names: James R.
+      - family-names: Strober
+        given-names: Benjamin J.
+      - family-names: Mandl
+        given-names: Kenneth D.
+    journal: medRxiv
+    year: 2026
+    doi: "10.64898/2026.08.18.26359984"

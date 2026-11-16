@@ -1,0 +1,152 @@
+[
+ {
+  "n": 285,
+  "vars": 6,
+  "threat": "known_support",
+  "build_s": 0.0,
+  "unknowns": 54,
+  "settled_by_propagation": 54,
+  "free": 0,
+  "lp_rows": null,
+  "small": 48,
+  "small_exact": 48,
+  "methods": {
+   "known-zero": 138,
+   "propagation": 54,
+   "lp": 0,
+   "lp+truth": 0,
+   "mip": 0,
+   "mip-timeout": 0
+  },
+  "seconds": {
+   "propagation": 0.0,
+   "total": 0.0
+  }
+ },
+ {
+  "n": 285,
+  "vars": 6,
+  "threat": "table_only",
+  "build_s": 0.0,
+  "unknowns": 192,
+  "settled_by_propagation": 176,
+  "free": 16,
+  "lp_rows": 141,
+  "small": 48,
+  "small_exact": 40,
+  "methods": {
+   "known-zero": 0,
+   "propagation": 176,
+   "lp": 0,
+   "lp+truth": 0,
+   "mip": 16,
+   "mip-timeout": 0
+  },
+  "seconds": {
+   "propagation": 0.0,
+   "solve": 0.33,
+   "workers": 2,
+   "total": 0.33
+  }
+ },
+ {
+  "n": 285,
+  "vars": 8,
+  "threat": "known_support",
+  "build_s": 0.0,
+  "unknowns": 79,
+  "settled_by_propagation": 79,
+  "free": 0,
+  "lp_rows": null,
+  "small": 70,
+  "small_exact": 70,
+  "methods": {
+   "known-zero": 689,
+   "propagation": 79,
+   "lp": 0,
+   "lp+truth": 0,
+   "mip": 0,
+   "mip-timeout": 0
+  },
+  "seconds": {
+   "propagation": 0.0,
+   "total": 0.0
+  }
+ },
+ {
+  "n": 285,
+  "vars": 8,
+  "threat": "table_only",
+  "build_s": 0.0,
+  "unknowns": 768,
+  "settled_by_propagation": 750,
+  "free": 18,
+  "lp_rows": 711,
+  "small": 70,
+  "small_exact": 61,
+  "methods": {
+   "known-zero": 0,
+   "propagation": 750,
+   "lp": 0,
+   "lp+truth": 0,
+   "mip": 18,
+   "mip-timeout": 0
+  },
+  "seconds": {
+   "propagation": 0.0,
+   "solve": 0.34,
+   "workers": 2,
+   "total": 0.34
+  }
+ },
+ {
+  "n": 285,
+  "vars": 10,
+  "threat": "known_support",
+  "build_s": 0.06,
+  "unknowns": 85,
+  "settled_by_propagation": 85,
+  "free": 0,
+  "lp_rows": null,
+  "small": 76,
+  "small_exact": 76,
+  "methods": {
+   "known-zero": 2987,
+   "propagation": 85,
+   "lp": 0,
+   "lp+truth": 0,
+   "mip": 0,
+   "mip-timeout": 0
+  },
+  "seconds": {
+   "propagation": 0.03,
+   "total": 0.03
+  }
+ },
+ {
+  "n": 285,
+  "vars": 10,
+  "threat": "table_only",
+  "build_s": 0.06,
+  "unknowns": 3072,
+  "settled_by_propagation": 3054,
+  "free": 18,
+  "lp_rows": 3014,
+  "small": 76,
+  "small_exact": 67,
+  "methods": {
+   "known-zero": 0,
+   "propagation": 3054,
+   "lp": 0,
+   "lp+truth": 0,
+   "mip": 18,
+   "mip-timeout": 0
+  },
+  "seconds": {
+   "propagation": 0.04,
+   "solve": 0.36,
+   "workers": 2,
+   "total": 0.43
+  }
+ }
+]

@@ -1,0 +1,47 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "SoftwareSourceCode",
+  "name": "CountGuard",
+  "description": "Audit and protect aggregate patient-count releases against reconstruction attacks: integer-programming and Bayesian reconstruction audits, suppression, rounding, generalization and differential privacy (OpenDP), and privacy-utility frontiers.",
+  "version": "0.1.0",
+  "softwareVersion": "0.1.0",
+  "dateCreated": "2026-11-14",
+  "datePublished": "2026-11-16",
+  "license": "https://spdx.org/licenses/Apache-2.0",
+  "codeRepository": "https://github.com/tberkane/CountGuard",
+  "url": "https://tberkane.github.io/CountGuard/",
+  "issueTracker": "https://github.com/tberkane/CountGuard/issues",
+  "programmingLanguage": "Python",
+  "runtimePlatform": "Python >= 3.12",
+  "developmentStatus": "active",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Thomas",
+      "familyName": "Berkane",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Computational Health Informatics Program, Boston Children's Hospital"
+      }
+    }
+  ],
+  "keywords": [
+    "privacy",
+    "statistical disclosure control",
+    "differential privacy",
+    "reconstruction attack",
+    "electronic health records",
+    "Cumulus"
+  ],
+  "softwareRequirements": [
+    "numpy>=2.0",
+    "scipy>=1.13",
+    "pandas>=2.2",
+    "pyarrow>=17",
+    "highspy>=1.16",
+    "duckdb>=1.1",
+    "opendp>=0.16",
+    "pyyaml>=6"
+  ],
+  "referencePublication": "https://doi.org/10.64898/2026.08.18.26359984"
+}

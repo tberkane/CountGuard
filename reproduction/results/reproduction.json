@@ -1,0 +1,179 @@
+{
+ "cohort": "Synthetic kidney-transplant-like cohort, n = 285, seed 2 (not patient data)",
+ "cube": "race \u00d7 sex \u00d7 7 immunosuppressant classes \u00d7 rejection (10 variables), k = 10",
+ "seed_note": "Seed 2 of 0\u20135 was chosen because its single-patient recovery rate is closest to the preprint's; across seeds 0\u20135 deterministic recovery ranges 85.1\u2013100.0%.",
+ "seed_spread": [
+  {
+   "seed": 0,
+   "pct": 100.0
+  },
+  {
+   "seed": 1,
+   "pct": 95.63065369516983
+  },
+  {
+   "seed": 2,
+   "pct": 85.12931034482759
+  },
+  {
+   "seed": 3,
+   "pct": 93.02768951429869
+  },
+  {
+   "seed": 4,
+   "pct": 100.0
+  },
+  {
+   "seed": 5,
+   "pct": 94.96525501507801
+  }
+ ],
+ "bounds_identical": true,
+ "rows": {
+  "published": {
+   "original": 5584,
+   "countguard": 5584,
+   "preprint": 6494
+  },
+  "suppressed": {
+   "original": 23200,
+   "countguard": 23200,
+   "preprint": 18994
+  },
+  "deterministic": {
+   "original": 19750,
+   "countguard": 19750,
+   "preprint": 14554
+  },
+  "pct_deterministic": {
+   "original": 85.12931034482759,
+   "countguard": 85.12931034482759,
+   "preprint": 76.6
+  }
+ },
+ "cells_exact_by_size": {
+  "original": {
+   "1": [
+    39,
+    45
+   ],
+   "2": [
+    16,
+    19
+   ],
+   "3": [
+    5,
+    5
+   ]
+  },
+  "countguard": {
+   "1": [
+    39,
+    45
+   ],
+   "2": [
+    16,
+    19
+   ],
+   "3": [
+    5,
+    5
+   ]
+  },
+  "preprint": {
+   "1": [
+    47,
+    55
+   ],
+   "2": [
+    13,
+    18
+   ],
+   "3": [
+    5,
+    7
+   ]
+  }
+ },
+ "mae": {
+  "original": {
+   "mae": 1.0525318175304879,
+   "ci": [
+    0.8608423780487806,
+    1.2590399390243903
+   ],
+   "plugin": 0.07967347560975609
+  },
+  "countguard": {
+   "mae": 1.0528836614329269,
+   "ci": [
+    0.8615039634146342,
+    1.2593920731707318
+   ],
+   "plugin": 0.08059817073170732
+  },
+  "zero": {
+   "mae": 2.1001585365853663,
+   "ci": [
+    1.9024390243902438,
+    2.292987804878047
+   ],
+   "plugin": 2.097560975609756
+  },
+  "five": {
+   "mae": 3.3783658536585364,
+   "ci": [
+    3.1341463414634148,
+    3.6341463414634148
+   ],
+   "plugin": 3.1951219512195124
+  },
+  "random": {
+   "mae": 3.6950365853658536,
+   "ci": [
+    3.426829268292683,
+    3.9878048780487805
+   ],
+   "plugin": 3.5609756097560976
+  },
+  "perfect": {
+   "mae": 1.0268170731707316,
+   "ci": [
+    0.8292682926829268,
+    1.2317073170731707
+   ],
+   "plugin": 0.0
+  },
+  "_n_cells_scored": 82
+ },
+ "mae_preprint": {
+  "pipeline": [
+   1.06,
+   0.89,
+   1.25
+  ]
+ },
+ "runtime_s": {
+  "original": {
+   "cube": 25.960250290998374,
+   "bounds": 1136.3963487080036,
+   "stan": 577.4351081250061,
+   "mh": 2605.0436383329943,
+   "total": 4364.499527292006
+  },
+  "countguard": {
+   "cube": 0.058234833006281406,
+   "bounds": 0.18697949999477714,
+   "stan": 21.417032249999465,
+   "mh": 4.350441041999147,
+   "total": 26.01268762499967
+  }
+ },
+ "speedup": {
+  "cube": 445.78560546740493,
+  "bounds": 6077.652088810519,
+  "stan": 26.961490340241724,
+  "mh": 598.7998948115626,
+  "total": 167.78349051089492
+ }
+}

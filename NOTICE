@@ -1,0 +1,18 @@
+CountGuard
+Copyright 2026 Thomas Berkane
+
+This product includes software developed by others:
+
+reproduction/original/
+  cube-inference-fidelity-evaluation
+  https://github.com/smart-on-fhir/cube-inference-fidelity-evaluation
+  Included unmodified from commit 6bbdb337280d03a590ca96de7183365825cdfc44.
+  Licensed under the Apache License, Version 2.0 (see reproduction/original/LICENSE).
+  Research code for: Chen Y, McMurry AJ, Gottlieb D, Jones JR, Strober BJ, Mandl KD.
+  "Sharing aggregated patient counts in place of line-level EHR data: analytic fidelity
+  and the limits of count suppression for privacy." medRxiv, 2026.
+  doi:10.64898/2026.08.18.26359984
+
+CountGuard's attack engine (src/countguard/attack.py) and Bayesian reconstruction
+(src/countguard/bayes.py) re-implement the methods of that code; the regression tests in
+tests/ check that they give the same results on synthetic data.

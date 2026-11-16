@@ -1,0 +1,17 @@
+{
+ "timings_s": {
+  "line_level_to_powerset": 25.56875958299497,
+  "build_matrices": 0.3914907080034027,
+  "ilp_bounds": 1136.3963487080036,
+  "fit_stan_model": 577.4351081250061,
+  "integer_constrained_sampling": 2605.0436383329943,
+  "total": 4364.499527292006
+ },
+ "status_counts": {
+  "Deterministic": 19750,
+  "Published": 5584,
+  "Uncertain": 3450
+ },
+ "n_cells": 87,
+ "total_suppressed": 23200
+}

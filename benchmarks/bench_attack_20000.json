@@ -1,0 +1,146 @@
+[
+ {
+  "n": 20000,
+  "vars": 6,
+  "threat": "known_support",
+  "build_s": 0.0,
+  "unknowns": 142,
+  "settled_by_propagation": 142,
+  "free": 0,
+  "lp_rows": null,
+  "small": 63,
+  "small_exact": 63,
+  "methods": {
+   "known-zero": 50,
+   "propagation": 142,
+   "lp": 0,
+   "lp+truth": 0,
+   "mip": 0,
+   "mip-timeout": 0
+  },
+  "seconds": {
+   "propagation": 0.0,
+   "total": 0.0
+  }
+ },
+ {
+  "n": 20000,
+  "vars": 6,
+  "threat": "table_only",
+  "build_s": 0.0,
+  "unknowns": 192,
+  "settled_by_propagation": 192,
+  "free": 0,
+  "lp_rows": null,
+  "small": 63,
+  "small_exact": 63,
+  "methods": {
+   "known-zero": 0,
+   "propagation": 192,
+   "lp": 0,
+   "lp+truth": 0,
+   "mip": 0,
+   "mip-timeout": 0
+  },
+  "seconds": {
+   "propagation": 0.0,
+   "total": 0.0
+  }
+ },
+ {
+  "n": 20000,
+  "vars": 8,
+  "threat": "known_support",
+  "build_s": 0.0,
+  "unknowns": 394,
+  "settled_by_propagation": 394,
+  "free": 0,
+  "lp_rows": null,
+  "small": 245,
+  "small_exact": 245,
+  "methods": {
+   "known-zero": 374,
+   "propagation": 394,
+   "lp": 0,
+   "lp+truth": 0,
+   "mip": 0,
+   "mip-timeout": 0
+  },
+  "seconds": {
+   "propagation": 0.0,
+   "total": 0.0
+  }
+ },
+ {
+  "n": 20000,
+  "vars": 8,
+  "threat": "table_only",
+  "build_s": 0.0,
+  "unknowns": 768,
+  "settled_by_propagation": 768,
+  "free": 0,
+  "lp_rows": null,
+  "small": 245,
+  "small_exact": 245,
+  "methods": {
+   "known-zero": 0,
+   "propagation": 768,
+   "lp": 0,
+   "lp+truth": 0,
+   "mip": 0,
+   "mip-timeout": 0
+  },
+  "seconds": {
+   "propagation": 0.0,
+   "total": 0.0
+  }
+ },
+ {
+  "n": 20000,
+  "vars": 10,
+  "threat": "known_support",
+  "build_s": 0.05,
+  "unknowns": 610,
+  "settled_by_propagation": 610,
+  "free": 0,
+  "lp_rows": null,
+  "small": 439,
+  "small_exact": 439,
+  "methods": {
+   "known-zero": 2462,
+   "propagation": 610,
+   "lp": 0,
+   "lp+truth": 0,
+   "mip": 0,
+   "mip-timeout": 0
+  },
+  "seconds": {
+   "propagation": 0.02,
+   "total": 0.02
+  }
+ },
+ {
+  "n": 20000,
+  "vars": 10,
+  "threat": "table_only",
+  "build_s": 0.05,
+  "unknowns": 3072,
+  "settled_by_propagation": 3072,
+  "free": 0,
+  "lp_rows": null,
+  "small": 439,
+  "small_exact": 439,
+  "methods": {
+   "known-zero": 0,
+   "propagation": 3072,
+   "lp": 0,
+   "lp+truth": 0,
+   "mip": 0,
+   "mip-timeout": 0
+  },
+  "seconds": {
+   "propagation": 0.02,
+   "total": 0.02
+  }
+ }
+]

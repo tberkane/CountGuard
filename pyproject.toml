@@ -1,0 +1,90 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "countguard"
+version = "0.1.0"
+description = "Audit and protect aggregate patient-count releases against reconstruction attacks"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE"]
+authors = [{ name = "Thomas Berkane" }]
+keywords = ["privacy", "statistical disclosure control", "differential privacy", "reconstruction attack", "EHR", "Cumulus"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Healthcare Industry",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering :: Medical Science Apps.",
+  "Topic :: Security",
+  "Typing :: Typed",
+]
+dependencies = [
+  "numpy>=2.0",
+  "scipy>=1.13",
+  "pandas>=2.2",
+  "pyarrow>=17",
+  "highspy>=1.16",
+  "duckdb>=1.1",
+  "opendp>=0.16",
+  "pyyaml>=6",
+]
+
+[project.optional-dependencies]
+bayes = ["cmdstanpy>=1.2", "sympy>=1.12"]
+demo = ["fastapi>=0.115", "uvicorn>=0.30"]
+test = ["pytest>=8", "pytest-cov>=5", "hypothesis>=6.100", "PuLP==3.3.2"]  # PuLP: same pin as the original code
+dev = ["countguard[test,demo]", "ruff>=0.6", "mypy>=1.11", "types-PyYAML", "pandas-stubs", "scipy-stubs"]
+docs = ["mkdocs-material>=9.5", "mkdocstrings[python]>=0.26"]
+
+[project.scripts]
+countguard = "countguard.cli:main"
+
+[project.urls]
+Repository = "https://github.com/tberkane/CountGuard"
+Documentation = "https://tberkane.github.io/CountGuard/"
+Changelog = "https://github.com/tberkane/CountGuard/blob/main/CHANGELOG.md"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+countguard = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = [
+  # The vendored original research code (reproduction/original/) builds its ILP with
+  # PuLP 3.3's LpVariable(...) constructor, deprecated ahead of PuLP 4. The pin matches
+  # the original code, which stays unmodified, so the warning is expected.
+  "ignore:Constructing LpVariable:DeprecationWarning",
+  # Same code path: PuLP 3.3 deprecates the bundled-CBC solver class the original code uses.
+  "ignore:PULP_CBC_CMD:DeprecationWarning",
+]
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+extend-exclude = ["reproduction/original"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+ignore = ["E731", "E741"]  # lambdas and short names (l, I) are used deliberately in the numerics
+
+[tool.ruff.lint.per-file-ignores]
+"benchmarks/*" = ["E501"]    # one-line result printouts
+"reproduction/*" = ["E501"]
+
+[tool.mypy]
+python_version = "3.12"
+files = ["src/countguard"]
+check_untyped_defs = true
+warn_unused_ignores = true
+ignore_missing_imports = true
+
+[tool.coverage.run]
+source = ["countguard"]

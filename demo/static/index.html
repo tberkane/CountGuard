@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CountGuard</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="/static/app.css?v=2026-11-16o">
+</head>
+<body>
+<header class="top">
+  <div class="wordmark">CountGuard</div>
+</header>
+
+<main>
+<!-- ============================================================ STEP 1 -->
+<section class="step" id="step1">
+  <div class="controls">
+    <div class="ctl"><label>Synthetic cohort</label>
+      <div class="seg" id="a-n"><button data-v="285" class="on">n = 285</button><button data-v="20000">n = 20,000</button></div></div>
+    <div class="ctl"><label>Mechanism</label><div class="seg" id="a-fam"></div></div>
+    <div class="ctl grow"><label id="a-slabel"></label><input type="range" id="a-slider" min="0" max="0" step="1"><div class="ticks" id="a-ticks"></div></div>
+    <button class="primary" id="a-rec" type="button">Recommend</button>
+  </div>
+
+  <div class="strip">
+    <div class="stat"><div class="k">Small groups cracked</div><div class="v" data-c="certain">–</div></div>
+    <div class="stat hero"><div class="k">Re-identification risk</div><div class="v" data-c="risk">–</div><div class="s" data-c="riskwhy"></div></div>
+    <div class="stat"><div class="k">Accuracy loss</div><div class="v" data-c="loss">–</div><div class="s">median relative error over 500 feasibility queries</div></div>
+  </div>
+
+  <div class="combo">
+    <div class="chartcard"><svg id="a-chart" class="chart combo" role="img" aria-label="Re-identification risk against accuracy loss for every release rule"></svg>
+      <div class="legend" id="a-flegend"></div></div>
+  </div>
+</section>
+
+</main>
+<script src="/static/app.js?v=2026-11-16o"></script>
+</body>
+</html>
